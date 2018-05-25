@@ -36,5 +36,5 @@ function makeInt(a) {
 } 
 
 function preserveDecimal(a) {
-  return a.parseFloat();
+  return parseFloat(a);
 }
