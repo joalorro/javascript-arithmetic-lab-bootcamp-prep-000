@@ -6,29 +6,36 @@ function addTwo(a , b) {
   return res;
 }
 
-it('subtract(a, b) subtracts b from a and returns the result', function() {
-  expect(subtract(a, b)).toEqual(a - b)
-})
 
 function subtTwo (a , b) {
-  res = x - y;
+  res = a - b;
+  return res;
 }
 
-it('multiply(a, b) multiplies two numbers and returns the result', function() {
-  expect(multiply(a, b)).toEqual(a * b)
-})
+
+function multTwo(a , b) {
+  res = a * b;
+  return res;
+}
 
 it('divide(a, b) divides a by b and returns the result', function() {
   expect(divide(a, b)).toEqual(a / b)
 })
 
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
-})
+function divTwo(a,b) {
+  res = a / b;
+  return res;
+}
 
-it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
-})
+function incTwo(a,b) {
+  a += b;
+  return a;
+}
+
+function decTwo(a,b) {
+  a -= b;
+  return a;
+}
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
