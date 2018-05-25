@@ -6,21 +6,15 @@ function addTwo(a , b) {
   return res;
 }
 
-
 function subtTwo (a , b) {
   res = a - b;
   return res;
 }
 
-
 function multTwo(a , b) {
   res = a * b;
   return res;
 }
-
-it('divide(a, b) divides a by b and returns the result', function() {
-  expect(divide(a, b)).toEqual(a / b)
-})
 
 function divTwo(a,b) {
   res = a / b;
