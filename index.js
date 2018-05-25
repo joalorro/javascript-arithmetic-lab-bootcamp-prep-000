@@ -21,13 +21,13 @@ function divide(a,b) {
   return res;
 }
 
-function inc(a,b) {
-  a += b;
+function inc(a) {
+  a += 1;
   return a;
 }
 
-function dec(a,b) {
-  a -= b;
+function dec(a) {
+  a -= 1;
   return a;
 }
 
