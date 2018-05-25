@@ -1,32 +1,32 @@
 var a, b
 var res;
 
-function addTwo(a , b) {
+function add(a , b) {
   res = a + b;
   return res;
 }
 
-function subtTwo (a , b) {
+function subtract (a , b) {
   res = a - b;
   return res;
 }
 
-function multTwo(a , b) {
+function multiply(a , b) {
   res = a * b;
   return res;
 }
 
-function divTwo(a,b) {
+function divide(a,b) {
   res = a / b;
   return res;
 }
 
-function incTwo(a,b) {
+function increment(a,b) {
   a += b;
   return a;
 }
 
-function decTwo(a,b) {
+function decrement(a,b) {
   a -= b;
   return a;
 }
