@@ -21,12 +21,12 @@ function divide(a,b) {
   return res;
 }
 
-function increment(a,b) {
+function inc(a,b) {
   a += b;
   return a;
 }
 
-function decrement(a,b) {
+function dec(a,b) {
   a -= b;
   return a;
 }
